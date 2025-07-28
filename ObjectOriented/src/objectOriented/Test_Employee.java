@@ -1,9 +1,9 @@
 package objectOriented;
 
 
-class Person{
+class Per{
 	private String Member;
-	public Person(String mem) {
+	public Per(String mem) {
 		this.Member = mem;
 	}
 	
@@ -14,7 +14,7 @@ class Person{
 		this.Member=name;
 	}
 }
-class Employee extends Person{
+class Employee extends Per{
 	private double Annual_sal;
 	private int Year_Started;
 	private String insurance_no;
